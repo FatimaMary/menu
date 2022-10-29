@@ -1,0 +1,15 @@
+.view-btn button {
+    box-sizing: border-box;
+    width: 428px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 4px 4px 4px #000000;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #008000;
+}
