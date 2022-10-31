@@ -13,3 +13,30 @@
     line-height: 22px;
     color: #008000;
 }
+
+.back p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: reba(0, 0, 0, 0.7);
+    margin-left: 25px;
+}
+
+h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 25px;
+}
+
+.order-items {
+    display: flex;
+    margin-left: 25px;
+    height: 50px;
+    width: ;
+}

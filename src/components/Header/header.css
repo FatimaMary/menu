@@ -54,10 +54,10 @@
 
 .icon {
     position: fixed;
-    margin-left: 65%;
-    margin-right: 25% ;
-    margin-top: 1% ;
-    margin-bottom: 90% ;
+    left: 65%;
+    right: 25% ;
+    top: 8.5% ;
+    bottom: 90% ;
     /* border: 1.5px solid rgba(0, 0, 0, 0.7);  */
 }
 
