@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-// import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 function Header() {
     return(
@@ -9,8 +9,10 @@ function Header() {
                 <img src="images/search.png" alt="search button" />
                 <input type="text" placeholder="search for dishes"  />
             </div> */}
-            <input type="text" placeholder="search for dishes"  />
-            {/* <SearchOutlinedIcon /> */}
+                <div className="search">
+                    <input type="text" placeholder="Search for Dishes..." />
+                    <SearchOutlinedIcon className="icon"/>
+                </div>
             <div className="head-btn">
                 <button className="btn1">
                     <img className="btn-img1" src="images/veg.png" alt="Vegitarion Symbol" />

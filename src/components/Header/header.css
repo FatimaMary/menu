@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
 
 /* font-family: 'Poppins', sans-serif; */
+@media (max-width: 600px) {
+
 .header {
     width: 356px;
     display: flex;
@@ -12,17 +14,17 @@
     border-bottom: 1px solid #D9D9D9;
 }
 
-/* .input-icon img {
-    position: absolute;
-left: 85.28%;
-right: 11.21%;
-top: 8.86%;
-bottom: 89.52%;
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 4px;
+}
 
-border: 1.5px solid rgba(0, 0, 0, 0.7);
-} */
-
-input {
+.search input {
     width: 356px;
     height: 35px;
     background: #D9D9D9;
@@ -38,10 +40,27 @@ input {
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
     /* width: 104px;
-    height: 18px;  */
+    height: 18px; */ 
     text-align: center;
     letter-spacing: 1px;
 }
+    
+/* .icon {
+    /* float: left; */
+    /* position: relative; 
+    left: calc(width * 30%);
+    top: calc(width * 19%);
+} */
+
+.icon {
+    position: fixed;
+    margin-left: 65%;
+    margin-right: 25% ;
+    margin-top: 1% ;
+    margin-bottom: 90% ;
+    /* border: 1.5px solid rgba(0, 0, 0, 0.7);  */
+}
+
 
 .head-btn {
     display: flex;
@@ -76,42 +95,4 @@ button {
     top: 163px;
     
 }
-
-@media (max-width: 480px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        margin-top: 72px;
-        padding-left: 36px;
-        padding-right: 36px;
-    }
-    
-    /* .input-icon img {
-        position: absolute;
-        left: 136.28%;
-        right: 11.21%;
-        top: 16.86%;
-        bottom: 99.52%;
-        border: 1.5px solid rgba(0, 0, 0, 0.7);
-    }
-     */
-    input {
-        width: 356px;
-        height: 35px;
-        background: #D9D9D9;
-        border-radius: 15px;
-        border: none;
-    }
-    
-    ::placeholder {
-        font-size: 12px;
-        font-weight: 400;
-        font-style: normal;
-        font-family: 'Poppins', sans-serif;
-        line-height: 20px;
-        /* width: 104px;
-        height: 18px; */
-        text-align: center;
-        letter-spacing: 1px;
-    }
 }
