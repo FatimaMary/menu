@@ -29,14 +29,46 @@ h6 {
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 22px;
+    /* line-height: 22px; */
     color: #000000;
     margin-left: 25px;
+    padding: 3px;
 }
 
 .order-items {
     display: flex;
+    align-items: center;
     margin-left: 25px;
     height: 50px;
-    width: ;
+    width: 356px;
+}
+
+.order-items:nth-last-child(3) {
+    justify-content: flex-end;
+}
+
+.veg {
+    height: 14px;
+    width: 14px;
+    /* margin-right: 1px; */
+}
+
+.item {
+    width: 85px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    /* margin-left: 9px; */
+}
+
+.num {
+    width: 74px;
+    height: 18px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }

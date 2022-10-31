@@ -13,9 +13,9 @@ function ViewCart() {
                 <h6>Table No: 10</h6>
                 <p>Order summary</p>
                 <div className="order-items">
-                    <img src="images/veg.png" alt="veg symbol" />
-                    <p>Veg Fried Rice</p>
-                    <input type="number" />
+                    <img src="images/veg.png" alt="veg symbol" className="veg"/>
+                    <p className="item">Veg Fried Rice</p>
+                    <input className="num" type="number" />
                 </div>
                 <button>Conform Your Order</button>
             </div>
