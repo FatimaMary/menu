@@ -17,7 +17,7 @@ function ViewCart() {
                     <p className="item">Veg Fried Rice</p>
                     <input className="num" type="number" />
                 </div>
-                <button>Conform Your Order</button>
+                <button className="conform-btn">Conform Your Order</button>
             </div>
         </div>
     );
