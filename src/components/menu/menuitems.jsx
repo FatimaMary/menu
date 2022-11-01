@@ -9,10 +9,10 @@ function MenuItems() {
         Data && Data.map( menuItem => {
             return (   <div className="menu-item">
                            <div className="menu-item-name">
-                                <img src={ menuItem.vegSymbol } alt="veg symbol" />
-                                <p>{ menuItem.itemName}</p>
+                                <img className="veg" src={ menuItem.vegSymbol } alt="veg symbol" />
+                                <p className="name">{ menuItem.itemName}</p>
                                <img className="star" src={ menuItem.starRate } alt="Star Rating" />
-                               <p>{ menuItem.amount }</p>
+                               <p className="rate">{ menuItem.amount }</p>
                             </div>
                            <div className="menu-item-pic">
                                <img className="food-pic" src={ menuItem.foodImg } alt="food pic" />
