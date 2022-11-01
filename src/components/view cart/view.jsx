@@ -11,11 +11,15 @@ function ViewCart() {
                 {/* <img src="images/back.png" alt="back button" /> */}
                 <p>  Back</p>
                 <h6>Table No: 10</h6>
-                <p>Order summary</p>
+                <p className="orsum">Order summary</p>
                 <div className="order-items">
-                    <img src="images/veg.png" alt="veg symbol" className="veg"/>
-                    <p className="item">Veg Fried Rice</p>
-                    <input className="num" type="number" />
+                    <div className="item1">
+                        <img src="images/veg.png" alt="veg symbol" className="veg"/>
+                        <p className="item-ordered">Veg Fried Rice</p>
+                    </div>
+                    <div>
+                        <input className="num" type="number" />
+                    </div>
                 </div>
                 <button className="conform-btn">Conform Your Order</button>
             </div>
