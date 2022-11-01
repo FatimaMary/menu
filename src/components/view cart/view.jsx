@@ -5,7 +5,7 @@ function ViewCart() {
     return (
         <div className="viewcart">
             <div className="view-btn">
-                <button>View Cart</button>
+                <button type="button" >View Cart</button> 
             </div>
             <div className="back">
                 {/* <img src="images/back.png" alt="back button" /> */}

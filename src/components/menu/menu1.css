@@ -1,19 +1,39 @@
-.menubar {
-    width: 356px;
-    padding-top: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+@media (max-width: 600px) {
+
+.menu-item {
+    width: 600px;
+    display: flex;
+    align-items: center;
     padding-bottom: 40px;
-    padding-left: 36px;
+    padding-left: 100px;
     padding-right: 36px;
     border-bottom: 1px solid #d9d9d9;
+    margin-top: 20px;
 }
 
-.menu {
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 100px;
+}
+
+.menu-item-name {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
-.menu-name {
+.name {
     line-height: 2px;
+    font-size: 20px;
 }
 
 .star {
@@ -21,9 +41,10 @@
     height: 20px;
 }
 
-.menu-pic {
+.menu-item-pic {
     display: flex;
     flex-direction: column;
+    padding-left: 150px;
 }
 
 .food-pic {
@@ -48,6 +69,8 @@
     font-size: 13px;
     line-height: 20px;
     color: #008000;
+    margin-left: 10px;
     /* left: 288px;
     top:325px; */
+}
 }
