@@ -1,0 +1,114 @@
+[ 
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg Briyani",
+    "starRate": "images/star.png",
+    "amount": "Rs.60",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Sweet lime",
+    "starRate": "images/star.png",
+    "amount": "Rs.40",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg fried Rice",
+    "starRate": "images/star.png",
+    "amount": "Rs.80",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg Noodles",
+    "starRate": "images/star.png",
+    "amount": "Rs.120",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Gobi 65",
+    "starRate": "images/star.png",
+    "amount": "Rs.60",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Chilli Parotta",
+    "starRate": "images/star.png",
+    "amount": "Rs.70",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg kuruma",
+    "starRate": "images/star.png",
+    "amount": "Rs.60",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Paneer Fried Rice",
+    "starRate": "images/star.png",
+    "amount": "Rs.120",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Paneer Butter Masala",
+    "starRate": "images/star.png",
+    "amount": "Rs.140",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg fried Rice",
+    "starRate": "images/star.png",
+    "amount": "Rs.80",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg Noodles",
+    "starRate": "images/star.png",
+    "amount": "Rs.120",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Gobi 65",
+    "starRate": "images/star.png",
+    "amount": "Rs.60",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Chilli Parotta",
+    "starRate": "images/star.png",
+    "amount": "Rs.70",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+},
+{
+    "vegSymbol": "images/veg.png",
+    "itemName": "Veg kuruma",
+    "starRate": "images/star.png",
+    "amount": "Rs.60",
+    "foodImg": "images/food.png",
+    "button": "ADD"
+}
+]
