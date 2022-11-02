@@ -4,7 +4,7 @@ import MenuItems from "./menuitems";
 
 
 function Menu() {
-    return ( <div>
+    return ( <div className="">
         <h4>Recommended</h4>
         <MenuItems />
         </div>);
