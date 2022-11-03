@@ -9,17 +9,19 @@ function Header() {
                 <img src="images/search.png" alt="search button" />
                 <input type="text" placeholder="search for dishes"  />
             </div> */}
-                <div className="search">
-                    <input type="text" placeholder="Search for Dishes..." />
-                    <SearchOutlinedIcon className="icon"/>
+            <div className="header-div">
+                    <div className="search">
+                        <input type="text" placeholder="Search for Dishes..." />
+                        <SearchOutlinedIcon className="icon"/>
+                    </div>
+                <div className="head-btn">
+                    <button className="btn1">
+                        <img className="btn-img1" src="images/veg.png" alt="Vegitarion Symbol" />
+                        veg <img className="btn-img2" src="images/int.png" alt="cancel symbol" />
+                    </button>
+                    <button className="btn2">Bestseller</button>
+                    <button className="btn3">New</button>
                 </div>
-            <div className="head-btn">
-                <button className="btn1">
-                    <img className="btn-img1" src="images/veg.png" alt="Vegitarion Symbol" />
-                    veg <img className="btn-img2" src="images/int.png" alt="cancel symbol" />
-                </button>
-                <button className="btn2">Bestseller</button>
-                <button className="btn3">New</button>
             </div>
         </div>
     );
