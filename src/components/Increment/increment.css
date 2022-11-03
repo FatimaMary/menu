@@ -1,0 +1,17 @@
+.increment {
+    height: 50px;
+    width: 100px;
+    background: gray;
+    color: palegreen;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .increment-btn,
+  .decrement-btn {
+    border: none;
+    color: palegreen;
+    background: gray;
+  }
+  
