@@ -8,7 +8,7 @@ import Conform from './components/Conform/conform';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
       <Menu />
       <ViewCart /> 
