@@ -14,7 +14,7 @@ function ViewCart() {
                 <p className="orsum">Order summary</p>
                 <div className="order-items">
                     <div className="item1">
-                        <img src="images/veg.png" alt="veg symbol" className="veg"/>
+                        <img src="images/veg.png" alt="veg symbol" className="view-veg"/>
                         <p className="item-ordered">Veg Fried Rice</p>
                     </div>
                     <div>

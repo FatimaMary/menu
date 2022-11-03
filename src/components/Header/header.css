@@ -8,8 +8,8 @@
     align-items: center;
     justify-content: center;
     top: 0;
-    padding: 10% 50%;
-    border-bottom: 1px solid #D9D9D9;
+    padding: 10% 40%;
+    /* border-bottom: 1px solid #D9D9D9; */
     position: sticky;
     z-index: 1000;
 
