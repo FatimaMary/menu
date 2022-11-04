@@ -16,11 +16,17 @@ function MenuItems() {
                             </div>
                            <div className="menu-item-pic">
                                <img className="food-pic" src={ menuItem.foodImg } alt="food pic" />
-                               <button className="add-btn">{ menuItem.button }</button>
+                               <button className="add-btn" id="add-btn">{ menuItem.button }</button>
                            </div>
                        </div>);
         })
 }</div>);
 }
+
+// function select () {
+//     console.log("add btn clicked");
+//     document.getElementById("view-btn").classList.toggle("active");
+// }
+// document.getElementById("add-btn").addEventListener('click', select)
 
 export default MenuItems

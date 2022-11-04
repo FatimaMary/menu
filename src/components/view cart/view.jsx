@@ -4,7 +4,7 @@ import './view.css'
 function ViewCart() {
     return (
         <div className="viewcart">
-            <div className="view-btn">
+            <div className="view-btn" id="view-btn">
                 <button type="button">View Cart</button> 
             </div>
             <div className="back">
