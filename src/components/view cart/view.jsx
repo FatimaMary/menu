@@ -9,7 +9,7 @@ function ViewCart() {
             </div>
             <div className="back">
                 {/* <img src="images/back.png" alt="back button" /> */}
-                <p>  Back</p>
+                <p className="view-back">  Back</p>
                 <h6>Table No: 10</h6>
                 <p className="orsum">Order summary</p>
                 <div className="order-items">
