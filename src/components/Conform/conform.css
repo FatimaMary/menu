@@ -2,22 +2,25 @@
 
 /* font-family: 'Poppins', sans-serif; */
 
-@media (max-width: 600px) {
-
     .conformed {
         height: 250px;
         width: 250px;
         background: #d9d9d9;
         border-radius: 10px;
         margin: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .okimg {
         width: 45.5px;
         height: 30.5px;
-        left: 391px;
-        top: 882px;
+        /* left: 391px;
+        top: 882px; */
         border: 1px solid #008000;
+        
 }
 
     h6 {
@@ -29,7 +32,6 @@
         font-size: 18px;
         line-height: 22px;
         color: #008000;
-        margin-top: 120px;
+        /* margin-top: 120px; */
         padding: auto;
-    }
 }
