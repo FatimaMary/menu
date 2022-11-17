@@ -1,5 +1,6 @@
 [ 
 {
+    "id": 1,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg Briyani",
     "starRate": "images/star.png",
@@ -8,6 +9,7 @@
     "button": "ADD"
 },
 {
+    "id": 2,
     "vegSymbol": "images/veg.png",
     "itemName": "Sweet lime",
     "starRate": "images/star.png",
@@ -16,6 +18,7 @@
     "button": "ADD"
 },
 {
+    "id": 3
     "vegSymbol": "images/veg.png",
     "itemName": "Veg fried Rice",
     "starRate": "images/star.png",
