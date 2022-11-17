@@ -17,11 +17,5 @@ function App() {
   );
 }
 
-// function select () {
-//   console.log("add btn clicked");
-//   document.getElementById("view-btn").classList.toggle("active");
-// }
-// document.getElementById("add-btn").addEventListener('click', select)
-
 
 export default App;
