@@ -21,26 +21,15 @@ class Cart extends React.Component {
   
     render() {
       return (
-        <CartContext.Provider value={{count: this.state.count, increment: this.increment, decrement: this.decrement}}>.
-          <MenuSelect />
+        <CartContext.Provider value={{count: this.state.count, increment: this.increment, decrement: this.decrement}}>
+          <Display />
         </CartContext.Provider>
       );
     }
   }
 
-//   function MenuSelect() {
-//     <CartContext.Consumer>
-//         {context => {
-//         <div>
-//             <button onClick={context.increment}>+</button>
-//             <h1>{context.count}</h1>
-//             <button onClick={context.decrement}>-</button>
-//         </div>
-            
-//         }}
-//     </CartContext.Consumer>
-// }
- (props) => {
+
+const Display=(props) => {
     return (
         <React.Fragment>
             <h1>Hello</h1>
@@ -48,9 +37,9 @@ class Cart extends React.Component {
         </React.Fragment>
     )
 };
- const Test = () => {
+const Test = () => {
     return(
-        <MyContext.Consumer>
+        <CartContext.Consumer>
         {(context) => {
             return(
                 <div>
@@ -61,7 +50,7 @@ class Cart extends React.Component {
             )
         }
         }
-        </MyContext.Consumer>
+        </CartContext.Consumer>
     )
 }
 

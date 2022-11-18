@@ -2,8 +2,7 @@ import React from "react";
 import './menu.css';
 import  Data from './data.json';
 import Cart from "../cart";
-import { CartContext } from "../context";
-// import { MenuSelect } from "../menuselect";
+// import { CartContext } from "../context";
 
 
 

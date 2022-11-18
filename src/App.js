@@ -11,11 +11,11 @@ import Cart from './components/cart';
 function App() {
   return (
     <div className='app'>
-      {/* <Header />
+      <Header />
       <Menu />
       <ViewCart /> 
-      <Conform /> */}
-      <Cart/>
+      <Conform />
+      {/* <Cart/> */}
     </div>
   );
 }
