@@ -18,7 +18,7 @@
     "button": "ADD"
 },
 {
-    "id": 3
+    "id": 3,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg fried Rice",
     "starRate": "images/star.png",
@@ -27,6 +27,7 @@
     "button": "ADD"
 },
 {
+    "id": 4,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg Noodles",
     "starRate": "images/star.png",
@@ -35,6 +36,7 @@
     "button": "ADD"
 },
 {
+    "id": 5,
     "vegSymbol": "images/veg.png",
     "itemName": "Gobi 65",
     "starRate": "images/star.png",
@@ -43,6 +45,7 @@
     "button": "ADD"
 },
 {
+    "id": 6,
     "vegSymbol": "images/veg.png",
     "itemName": "Chilli Parotta",
     "starRate": "images/star.png",
@@ -51,6 +54,7 @@
     "button": "ADD"
 },
 {
+    "id": 7,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg kuruma",
     "starRate": "images/star.png",
@@ -59,6 +63,7 @@
     "button": "ADD"
 },
 {
+    "id": 8,
     "vegSymbol": "images/veg.png",
     "itemName": "Paneer Fried Rice",
     "starRate": "images/star.png",
@@ -67,6 +72,7 @@
     "button": "ADD"
 },
 {
+    "id": 9,
     "vegSymbol": "images/veg.png",
     "itemName": "Paneer Butter Masala",
     "starRate": "images/star.png",
@@ -75,6 +81,7 @@
     "button": "ADD"
 },
 {
+    "id": 10,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg fried Rice",
     "starRate": "images/star.png",
@@ -83,6 +90,7 @@
     "button": "ADD"
 },
 {
+    "id": 11,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg Noodles",
     "starRate": "images/star.png",
@@ -91,6 +99,7 @@
     "button": "ADD"
 },
 {
+    "id": 12,
     "vegSymbol": "images/veg.png",
     "itemName": "Gobi 65",
     "starRate": "images/star.png",
@@ -99,6 +108,7 @@
     "button": "ADD"
 },
 {
+    "id": 13,
     "vegSymbol": "images/veg.png",
     "itemName": "Chilli Parotta",
     "starRate": "images/star.png",
@@ -107,6 +117,7 @@
     "button": "ADD"
 },
 {
+    "id": 14,
     "vegSymbol": "images/veg.png",
     "itemName": "Veg kuruma",
     "starRate": "images/star.png",
