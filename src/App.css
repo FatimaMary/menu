@@ -2,10 +2,12 @@
   max-width: 600px;
   margin: 0 auto;
   box-sizing: border-box;
-  
+  box-shadow: 10px 10px 10px gray;
+  border: 2px solid black;
 }
 
 .app{
-  background: antiquewhite;
+  background: white;
   padding: 10% 0;
+  
 }
